@@ -1,0 +1,18 @@
+name: dockercompose5558678428926116545
+services:
+  sma.api:
+    build:
+      context: C:\Users\huyth\OneDrive\MÃ¡y tÃ­nh\C#\SMA
+      dockerfile: SMA.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: smaapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose5558678428926116545_default

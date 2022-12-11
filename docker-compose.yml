@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sma.api:
+    image: ${DOCKER_REGISTRY-}smaapi
+    build:
+      context: .
+      dockerfile: SMA.API/Dockerfile

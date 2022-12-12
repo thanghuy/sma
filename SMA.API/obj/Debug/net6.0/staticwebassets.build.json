@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6MF1NAsoaFiO6Z4pjC2Yel8tuECUw+ZBcZzmmIGV4Oc=",
+  "Source": "SMA.API",
+  "BasePath": "_content/SMA.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

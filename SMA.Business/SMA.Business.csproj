@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="AuthBusiness\" />
+    <Folder Include="HttpClient\" />
+    <Folder Include="SingalR\" />
+    <Folder Include="SmaBusiness\" />
+    <Folder Include="StaticFileBusiness\" />
+  </ItemGroup>
+
 </Project>

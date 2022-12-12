@@ -1,0 +1,15 @@
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\bin\Debug\net6.0\SMA.Repository.deps.json
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\bin\Debug\net6.0\SMA.Repository.dll
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\bin\Debug\net6.0\SMA.Repository.pdb
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\bin\Debug\net6.0\SMA.Domain.dll
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\bin\Debug\net6.0\SMA.Domain.pdb
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.csproj.AssemblyReference.cache
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.AssemblyInfoInputs.cache
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.AssemblyInfo.cs
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.csproj.CoreCompileInputs.cache
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.csproj.CopyComplete
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.dll
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\refint\SMA.Repository.dll
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\SMA.Repository.pdb
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.Repository\obj\Debug\net6.0\ref\SMA.Repository.dll

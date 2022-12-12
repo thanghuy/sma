@@ -17,4 +17,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SMA.Domain\SMA.Domain.csproj" />
+    <ProjectReference Include="..\SMA.Repository\SMA.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

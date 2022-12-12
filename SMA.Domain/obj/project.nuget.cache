@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mYRuwqZpiuQ0YHeHpXG1oVC3Q/ngZBBKfwUHmj2YA+Znt22zHXD8M9VXmm+dCOrfKPYRq/86UjJw/vhIBeIbVQ==",
+  "dgSpecHash": "wOhEd/smwaSq0t3Mp5/faMKDh/ZsulS8p9UxEOgAa+ZoIdB6f+ajtGkb94cMjc/UPdIuPFMhpV9KNKF/lzsCWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.Domain\\SMA.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\huyth\\.nuget\\packages\\mongodb.bson\\2.18.0\\mongodb.bson.2.18.0.nupkg.sha512",
+    "C:\\Users\\huyth\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

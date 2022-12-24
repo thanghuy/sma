@@ -54,5 +54,10 @@ namespace SMA.Repository.Base
         {
             return Builders<TEntity>.Filter.Eq("Id", key);
         }
+
+        public Task AddMany(IEnumerable<TEntity> obj)
+        {
+            return DbSet.InsertManyAsync(obj);
+        }
     }
 }

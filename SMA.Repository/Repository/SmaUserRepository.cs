@@ -1,7 +1,7 @@
 ﻿using MongoDB.Driver;
 using SMA.Domain.Base;
 using SMA.Domain.Entities;
-using SMA.Domain.Interfaces;
+using SMA.Domain.Interfaces.Repositories;
 using SMA.Repository.Base;
 using SMA.Repository.Context;
 using System;

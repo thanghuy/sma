@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Options;
 using SMA.Domain.Base;
-using SMA.Domain.Interfaces;
+using SMA.Domain.Interfaces.Repositories;
 using SMA.Repository.Context;
 using SMA.Repository.Repository;
 
@@ -10,9 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 //db
 
 builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongodbSetting"));
+builder.Services.Configure<string>(builder.Configuration.GetSection("Domain"));
+
 builder.Services.AddSingleton<IMongoDbSettings>(sp => sp.GetRequiredService<IOptions<MongoDbSettings>>().Value);
 builder.Services.AddSingleton<IMongoContext, MongoContext>();
 builder.Services.AddSingleton<ISmaUserRepository, SmaUserRepository>();
+builder.Services.AddSingleton<ISmaStaticFileRepository, SmaStaticFileRepository>();
 //log
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
@@ -37,5 +40,6 @@ app.UseHttpLogging();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseStaticFiles();
 
 app.Run();

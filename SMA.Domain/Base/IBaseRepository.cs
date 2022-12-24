@@ -10,6 +10,7 @@ namespace SMA.Domain.Base
     public interface IBaseRepository<TEntity> where TEntity : class
     {
         Task<TEntity> Add(TEntity obj);
+        Task AddMany(IEnumerable<TEntity> obj);
         Task<TEntity> GetById(ObjectId id);
         Task<IEnumerable<TEntity>> GetAll();
         Task<TEntity> Update(ObjectId id, TEntity obj);

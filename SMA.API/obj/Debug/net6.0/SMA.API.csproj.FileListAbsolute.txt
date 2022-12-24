@@ -40,3 +40,9 @@ C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\bin\Debug\net6.0\SMA.Domain.dl
 C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\bin\Debug\net6.0\SMA.Repository.dll
 C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\bin\Debug\net6.0\SMA.Domain.pdb
 C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\bin\Debug\net6.0\SMA.Repository.pdb
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\obj\Debug\net6.0\staticwebassets\msbuild.SMA.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\obj\Debug\net6.0\staticwebassets\msbuild.build.SMA.API.props
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SMA.API.props
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SMA.API.props
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\huyth\OneDrive\Máy tính\C#\SMA\SMA.API\bin\Debug\net6.0\SMA.API.staticwebassets.runtime.json

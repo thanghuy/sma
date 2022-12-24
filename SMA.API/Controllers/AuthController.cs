@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SMA.Domain.Entities;
-using SMA.Domain.Interfaces;
+using SMA.Domain.Interfaces.Repositories;
 
 namespace SMA.API.Controllers
 {

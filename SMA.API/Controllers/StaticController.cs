@@ -47,7 +47,7 @@ namespace SMA.API.Controllers
                         Directory.CreateDirectory(_env.WebRootPath + "\\uploads\\");
                     }
                     var fileName = Guid.NewGuid().ToString() + Path.GetExtension(formFile.FileName);
-                    var filePath = Path.Combine(_env.WebRootPath + "\\uploads\\" + fileName);
+                    var filePath = Path.Combine(_env.WebRootPath, "uploads", fileName);
 
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {

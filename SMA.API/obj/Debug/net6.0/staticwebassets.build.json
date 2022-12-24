@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8InLeYDs6Awzrg5s3j2EoyWtTTGQvoksYQ8KQfBB56c=",
+  "Hash": "+O58dkAVBJlGyoELHnSEI2ZnKmbJAdwu/DknKyOFQNU=",
   "Source": "SMA.API",
   "BasePath": "_content/SMA.API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\ab9ee8dc-c92b-4d26-a746-4e8f382fbe8d.png",
+      "Identity": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\447d71f2-8462-4d94-a716-4092b1c3fd09.png",
       "SourceId": "SMA.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\",
       "BasePath": "_content/SMA.API",
-      "RelativePath": "uploads/ab9ee8dc-c92b-4d26-a746-4e8f382fbe8d.png",
+      "RelativePath": "uploads/447d71f2-8462-4d94-a716-4092b1c3fd09.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,58 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\ab9ee8dc-c92b-4d26-a746-4e8f382fbe8d.png"
-    },
-    {
-      "Identity": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\b3022983-4e4c-481d-a14e-f7d40d4d6772.png",
-      "SourceId": "SMA.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\",
-      "BasePath": "_content/SMA.API",
-      "RelativePath": "uploads/b3022983-4e4c-481d-a14e-f7d40d4d6772.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b3022983-4e4c-481d-a14e-f7d40d4d6772.png"
-    },
-    {
-      "Identity": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\d184044e-e7bf-4598-80be-26b1cfac4934.png",
-      "SourceId": "SMA.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\",
-      "BasePath": "_content/SMA.API",
-      "RelativePath": "uploads/d184044e-e7bf-4598-80be-26b1cfac4934.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\d184044e-e7bf-4598-80be-26b1cfac4934.png"
-    },
-    {
-      "Identity": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\f43e77bd-1842-4fd1-8e32-bddfd9a4f1e4.png",
-      "SourceId": "SMA.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\",
-      "BasePath": "_content/SMA.API",
-      "RelativePath": "uploads/f43e77bd-1842-4fd1-8e32-bddfd9a4f1e4.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\f43e77bd-1842-4fd1-8e32-bddfd9a4f1e4.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\447d71f2-8462-4d94-a716-4092b1c3fd09.png"
     }
   ]
 }

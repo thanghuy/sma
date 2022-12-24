@@ -1,20 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\ab9ee8dc-c92b-4d26-a746-4e8f382fbe8d.png",
-      "PackagePath": "staticwebassets\\uploads\\ab9ee8dc-c92b-4d26-a746-4e8f382fbe8d.png"
-    },
-    {
-      "Id": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\b3022983-4e4c-481d-a14e-f7d40d4d6772.png",
-      "PackagePath": "staticwebassets\\uploads\\b3022983-4e4c-481d-a14e-f7d40d4d6772.png"
-    },
-    {
-      "Id": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\d184044e-e7bf-4598-80be-26b1cfac4934.png",
-      "PackagePath": "staticwebassets\\uploads\\d184044e-e7bf-4598-80be-26b1cfac4934.png"
-    },
-    {
-      "Id": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\f43e77bd-1842-4fd1-8e32-bddfd9a4f1e4.png",
-      "PackagePath": "staticwebassets\\uploads\\f43e77bd-1842-4fd1-8e32-bddfd9a4f1e4.png"
+      "Id": "C:\\Users\\huyth\\OneDrive\\Máy tính\\C#\\SMA\\SMA.API\\wwwroot\\uploads\\447d71f2-8462-4d94-a716-4092b1c3fd09.png",
+      "PackagePath": "staticwebassets\\uploads\\447d71f2-8462-4d94-a716-4092b1c3fd09.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SMA.API.Microsoft.AspNetCore.StaticWebAssets.props",

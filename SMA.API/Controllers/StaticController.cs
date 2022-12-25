@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using SMA.API.Models.Config;
 using SMA.Domain.Entities;
 using SMA.Domain.Interfaces.Repositories;
 
@@ -10,27 +11,23 @@ namespace SMA.API.Controllers
     [ApiController]
     public class StaticController : ControllerBase
     {
-        public readonly ILogger _log;
-        public readonly ISmaStaticFileRepository _smaStaticFileRepository;
+        private readonly ILogger _log;
+        private readonly ISmaStaticFileRepository _smaStaticFileRepository;
         private readonly IWebHostEnvironment _env;
+        private readonly StaticFile _staticFile;
 
         public StaticController(
             ILogger<StaticController> log,
             ISmaStaticFileRepository smaStaticFileRepository,
-            IWebHostEnvironment env)
+            IWebHostEnvironment env,
+            IOptions<StaticFile> config)
         {
             _log = log;
             _env = env;
             _smaStaticFileRepository = smaStaticFileRepository;
+            _staticFile = config.Value;
         }
-
-        [HttpGet]
-        [Route("/static/images/{id}")]
-        public IActionResult GetFileById(string id)
-        {
-            return Redirect($"http://localhost:5091/uploads/{id}");
-        }
-
+        
         [HttpPost]
         [Route("/static/file/uploads")]
         public async Task<IActionResult> UploadFile(List<IFormFile> files)
@@ -42,12 +39,12 @@ namespace SMA.API.Controllers
             {
                 if (formFile.Length > 0)
                 {
-                    if (!Directory.Exists(_env.WebRootPath + "\\uploads"))
+                    if (!Directory.Exists(_env.WebRootPath + $"\\{_staticFile.Folder}"))
                     {
-                        Directory.CreateDirectory(_env.WebRootPath + "\\uploads\\");
+                        Directory.CreateDirectory(_env.WebRootPath + $"\\{_staticFile.Folder}\\");
                     }
                     var fileName = Guid.NewGuid().ToString() + Path.GetExtension(formFile.FileName);
-                    var filePath = Path.Combine(_env.WebRootPath, "uploads", fileName);
+                    var filePath = Path.Combine(_env.WebRootPath, _staticFile.Folder, fileName);
 
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
@@ -55,7 +52,7 @@ namespace SMA.API.Controllers
                         fileStream.Flush();
                     }
 
-                    listFileName.Add(fileName);
+                    listFileName.Add($"{_staticFile.Domain}/{_staticFile.Folder}/{fileName}");
                     smaStaticFiles.Add(new SmaStaticFile
                     {
                         Name = fileName,

@@ -1,4 +1,5 @@
 using Microsoft.Extensions.Options;
+using SMA.API.Models.Config;
 using SMA.Domain.Base;
 using SMA.Domain.Interfaces.Repositories;
 using SMA.Repository.Context;
@@ -10,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 //db
 
 builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongodbSetting"));
-builder.Services.Configure<string>(builder.Configuration.GetSection("Domain"));
+builder.Services.Configure<StaticFile>(builder.Configuration.GetSection("StaticFile"));
 
 builder.Services.AddSingleton<IMongoDbSettings>(sp => sp.GetRequiredService<IOptions<MongoDbSettings>>().Value);
 builder.Services.AddSingleton<IMongoContext, MongoContext>();

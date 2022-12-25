@@ -3,6 +3,6 @@ version: '3.4'
 services:
   sma.api:
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
+      - "StaticFile:Domain=https://api.thanghieu.online"
+    ports: 
       - "3003:80"

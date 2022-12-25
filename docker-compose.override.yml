@@ -8,4 +8,6 @@ services:
     ports: 
       - "3003:80"
     volumes:
-      - /var/www/:/images
+      - media_netcore:/images
+volumes:
+  media_netcore:

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Options;
 using SMA.API.Models.Config;
 using SMA.Domain.Entities;
 using SMA.Domain.Interfaces.Repositories;
+using ILogger = Serilog.ILogger;
 
 namespace SMA.API.Controllers
 {
@@ -11,19 +12,19 @@ namespace SMA.API.Controllers
     [ApiController]
     public class StaticController : ControllerBase
     {
-        private readonly ILogger _log;
         private readonly ISmaStaticFileRepository _smaStaticFileRepository;
         private readonly IWebHostEnvironment _env;
+        private readonly ILogger _logger;
         private readonly StaticFile _staticFile;
 
         public StaticController(
-            ILogger<StaticController> log,
             ISmaStaticFileRepository smaStaticFileRepository,
             IWebHostEnvironment env,
-            IOptions<StaticFile> config)
+            IOptions<StaticFile> config,
+            ILogger logger)
         {
-            _log = log;
             _env = env;
+            _logger = logger;
             _smaStaticFileRepository = smaStaticFileRepository;
             _staticFile = config.Value;
         }

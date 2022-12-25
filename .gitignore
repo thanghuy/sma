@@ -1,1 +1,5 @@
-./SMA.API/wwwroot
+/SMA.API/wwwroot
+bin
+obj
+/SMA.API/bin
+/SMA.API/obj

@@ -7,3 +7,5 @@ services:
       - "StaticFile:Domain=https://api.thanghieu.online"
     ports: 
       - "3003:80"
+    volumes:
+      - "/var/www/:wwwroot"

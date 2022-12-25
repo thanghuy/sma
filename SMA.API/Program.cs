@@ -1,4 +1,6 @@
 using Microsoft.Extensions.Options;
+using Serilog;
+using Serilog.Extensions.Hosting;
 using SMA.API.Models.Config;
 using SMA.Domain.Base;
 using SMA.Domain.Interfaces.Repositories;
@@ -24,8 +26,18 @@ builder.Logging.AddConsole();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+string logFolder = Path.Combine(AppContext.BaseDirectory, "Logs");
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File(Path.Combine(logFolder, $"{(new DateTimeOffset(DateTime.UtcNow).ToUnixTimeSeconds()).ToString()}-log.txt"))
+    .CreateLogger();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton(Log.Logger);
+builder.Services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog(dispose: true));
+builder.Services.AddSingleton<DiagnosticContext>();
 
 
 var app = builder.Build();
@@ -42,5 +54,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.UseStaticFiles();
-
+app.UseSerilogRequestLogging();
 app.Run();

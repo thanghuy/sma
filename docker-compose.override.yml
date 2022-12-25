@@ -8,4 +8,4 @@ services:
     ports: 
       - "3003:80"
     volumes:
-      - "/var/www/:wwwroot"
+      - "/var/www/:/wwwroot"
